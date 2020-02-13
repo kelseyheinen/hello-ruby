@@ -21,3 +21,10 @@
 # To rectify this, you can convert the number into a string
 # "i would like #{5} tacos"
 
+
+rand1 = rand(1..6)  
+rand2 = rand(1..6)
+total = rand1 + rand2
+puts "Roll 1 =" + rand1.to_s
+puts "Roll 2 =" + rand2.to_s
+puts "Total Roll = " + total.to_s

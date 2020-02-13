@@ -15,3 +15,8 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+my_list = ["milk", "eggs", "bacon"]
+friend_list = ["beer", "cookies", "apples", "milk"]
+
+master_list = my_list + friend_list
+puts master_list.uniq.sort
